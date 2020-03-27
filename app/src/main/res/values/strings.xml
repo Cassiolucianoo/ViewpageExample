@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">ViewpageExample</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="androidText">Android é um sistema operacional baseado no núcleo Linux, desenvolvido por um consorcio de desenvolvedores conhecido como Open Handset Alliance, sendo o principal colaborador o</string>
+    <string name="android">Android</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="kotlintext">Kotlin é uma Linguagem de programação multiplataforma que compila para a Máquina virtual Java e que também pode ser traduzida para JavaScript e compilada para código nativo. Desenvolvida pela JetBrains, seu nome é baseado na ilha de Kotlin, onde se situa a cidade russa de Kronstadt, próximo a São</string>
 </resources>
