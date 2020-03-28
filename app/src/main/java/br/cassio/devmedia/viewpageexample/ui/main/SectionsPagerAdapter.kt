@@ -6,12 +6,12 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import br.cassio.devmedia.viewpageexample.R
 
-private val TAB_TITLES = arrayOf(
+/*private val TAB_TITLES = arrayOf(
     R.string.tab_text_1,
     R.string.tab_text_2 ,
     R.string.tab_text_3
 
-)
+)*/
 
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
@@ -27,7 +27,12 @@ class SectionsPagerAdapter(private val context: Context, fm: FragmentManager) :
     }
 
     override fun getPageTitle(position: Int): CharSequence? {
-        return context.resources.getString(TAB_TITLES[position])
+        when(position){
+            0 -> {
+                return
+            }
+
+        }
     }
 
     override fun getCount(): Int {
