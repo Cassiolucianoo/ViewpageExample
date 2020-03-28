@@ -86,8 +86,8 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="foregroundImage" value="C:\Users\triibo\Desktop\android.jpg" />
-                                      <entry key="outputName" value="ic_android" />
+                                      <entry key="foregroundImage" value="C:\Users\triibo\Desktop\flutter.png" />
+                                      <entry key="outputName" value="ic_fluttert" />
                                     </map>
                                   </option>
                                 </PersistentState>

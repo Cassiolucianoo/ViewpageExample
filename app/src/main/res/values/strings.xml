@@ -3,10 +3,10 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="tab_text_1">Sobre android</string>
     <string name="tab_text_2">Kotlin</string>
-    <string name="tab_text_3">Flutter</string>
+    <string name="Flutter">Flutter</string>
     <string name="androidText">Android é um sistema operacional baseado no núcleo Linux, desenvolvido por um consorcio de desenvolvedores conhecido como Open Handset Alliance, sendo o principal colaborador o</string>
     <string name="android">Android</string>
     <string name="kotlin">Kotlin</string>
     <string name="kotlintext">Kotlin é uma Linguagem de programação multiplataforma que compila para a Máquina virtual Java e que também pode ser traduzida para JavaScript e compilada para código nativo. Desenvolvida pela JetBrains, seu nome é baseado na ilha de Kotlin, onde se situa a cidade russa de Kronstadt, próximo a São</string>
-    <string name="flutter">Flutter é um SDK de código aberto criado pelo Google para o desenvolvimento de aplicativos para Android, iOS, Desktop ou Web, além de ser o principal método de criação de aplicativos para o Google Fuchsia. O Flutter é: - Um framework reativo moderno, - Um mecanismo de renderização em 2D rápido</string>
+    <string name="fluttertexte">Flutter é um SDK de código aberto criado pelo Google para o desenvolvimento de aplicativos para Android, iOS, Desktop ou Web, além de ser o principal método de criação de aplicativos para o Google Fuchsia. O Flutter é: - Um framework reativo moderno, - Um mecanismo de renderização em 2D rápido</string>
 </resources>

@@ -24,43 +24,38 @@
             android:id="@+id/textView"
             android:layout_width="320dp"
             android:layout_height="48dp"
-            android:layout_marginTop="48dp"
+            android:layout_marginBottom="4dp"
             android:fontFamily="sans-serif"
             android:gravity="center"
             android:text="@string/kotlin"
             android:textColor="@color/cardview_shadow_start_color"
             android:textSize="35sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintStart_toStartOf="parent">
 
         </TextView>
 
         <ImageView
-
-
             android:id="@+id/imageView"
-            android:layout_width="232dp"
-            android:layout_height="248dp"
-            android:layout_marginBottom="380dp"
-            android:src="@mipmap/ic_launcher"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="253dp"
+            android:layout_height="234dp"
+            android:layout_marginBottom="16dp"
+            android:src="@mipmap/ic_launcher_foreground"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
             app:layout_constraintEnd_toEndOf="@+id/textView"
-            app:layout_constraintStart_toStartOf="@+id/textView"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="@+id/textView" />
 
         <TextView
-            android:layout_width="301dp"
-            android:layout_height="153dp"
-            android:layout_marginBottom="228dp"
+            android:id="@+id/textView2"
+            android:layout_width="287dp"
+            android:layout_height="247dp"
             android:text="@string/kotlintext"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/imageView"
-            app:layout_constraintHorizontal_bias="0.492"
-            app:layout_constraintStart_toStartOf="@+id/imageView"
-            app:layout_constraintTop_toBottomOf="@+id/imageView"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintStart_toStartOf="@+id/imageView" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
